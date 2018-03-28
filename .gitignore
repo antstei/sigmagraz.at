@@ -1,0 +1,36 @@
+#ignore all image files
+*.svg
+*.png
+*.jpeg
+*.gif
+*.ico
+
+
+#ignore all font files
+*.woff
+*.eot
+*.woff2
+
+
+#ignore .htaccess files
+.htaccess
+
+
+#ignore CI system folder
+sigma_ci_core/system
+
+
+#ignore CI config files
+sigma_ci_core/application/config/development
+
+
+#ignore all cache and log files
+sigma_ci_core/application/cache
+sigma_ci_core/application/log
+
+!sigma_ci_core/application/cache/index.html
+!sigma_ci_core/application/log/index.html
+
+
+#ignore google-site-verification
+google*.html
